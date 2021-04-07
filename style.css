@@ -1,6 +1,7 @@
-html{
+html{ /*This sets the entire backgroud of the site beige*/
   background-color:beige;
   }
+/*These next 4 set the colors to the links*/
 a:link{
   color: purple;
 }
@@ -13,28 +14,28 @@ a:hover{
 a:active{
   color:blue;
 }
-header, footer{
+header, footer{ /*Centers the header and footer and sets the background to tan*/
   background-color: tan;
   text-align: center;
 }
-main{
+main{/*Centers the main, sets it to beige, and adds padding and margins*/
   background-color: beige;
   margin: 20px*40px;
   padding: 40px*40px;
   text-align: center;
 }
-h{
+h{/*Stes every header to Arial*/
   font-family: Aial;
 }
-div{
+div{/*Adds margin to the bottom of each divider*/
   margin-bottom: 10px;
 }
-main li{
+main li{/*Sets the font and font size of the items in a list to Arial, puts the number/bullet point within the boundary, and adds space between each list item*/
   list-style-position: inside;
   font-family: Arial;
   font-size: 12px;
   line-height: 22px;
 }
-img{
+img{/*Sets all image sizes*/
  width : 450px; 
 }
